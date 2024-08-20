@@ -71,11 +71,11 @@ const App = () => {
         {selectedAnime && (
           <a
             href="#"
-            className="flex h-1/4 w-full max-w-2xl flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:h-64 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex fixed left-20 h-1/4 w-full max-w-2xl flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:h-64 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <img
               className="object-cover w-full rounded-t-lg h-48 md:h-full md:w-64 md:rounded-none md:rounded-s-lg"
-              src={selectedAnime.images.jpg.image_url}
+              src={selectedAnime.images.jpg.large_image_url}
               alt={selectedAnime.title}
             />
             <div className="flex flex-col justify-between p-4 leading-normal h-full overflow-y-auto">
