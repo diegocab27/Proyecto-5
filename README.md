@@ -1,5 +1,7 @@
 ![banner](https://github.com/diegocab27/proyecto1/assets/162330383/d1251c1c-916c-4b7c-b57b-cab573e44281)
 
+![banner](https://github.com/diegocab27/proyecto1/assets/162330383/d1251c1c-916c-4b7c-b57b-cab573e44281)
+
 # PROYECTO 5: Aplicación Web con React
 
 El objetivo principal de este proyecto es construir una aplicacion Web con React que consumirá datos de una API pública. Los datos que se obtengan de la API se mostrarán en una interfaz de usuario.
@@ -13,15 +15,23 @@ Construir una aplicación Web con React y utilizando el framwork de vite que con
 
 ## Instalacion 
 
-Para instalar y ejecutar el proyecto realizamos los siguientes comandos
+Para instalar y ejecutar el proyecto en desarrollo realizamos los siguientes comandos
 
 ```
   npm install 
   npm run dev
 ```
-    
 
-#### Uso del proyecto
+
+## Despliegue
+
+La aplicacion se desplego en https://render.com y se puede revisar a travez del siguiente enlace
+
+- https://proyecto-5-9f91.onrender.com
+
+
+
+## Uso del proyecto
 
 - La pagina principal muestra el titulo del proyecto junto en boton para ver los generos.
 
@@ -36,7 +46,7 @@ Para instalar y ejecutar el proyecto realizamos los siguientes comandos
 
 
 
-#### App
+### App
 
 ```
 import React from 'react'
