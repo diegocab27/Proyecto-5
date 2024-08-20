@@ -50,7 +50,7 @@ Para instalar y ejecutar el proyecto en desarrollo realizamos los siguientes com
 ![image](https://github.com/user-attachments/assets/9a5be3cf-9c43-4904-b231-3e35e269c0a2)
 
 
-- En el listado se puede seleccionar alguno para ver su imagen y descripcion.
+- En el listado se puede seleccionar alguno para ver su imagen y sinopsis.
 
 ![image](https://github.com/user-attachments/assets/832c6945-66a5-4b95-a2f2-9d1a6c834376)
 
