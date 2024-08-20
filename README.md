@@ -31,7 +31,7 @@ La aplicacion se desplego en https://render.com y se puede revisar a travez del 
 
 ## Uso del proyecto
 
-- La pagina principal muestra el titulo del proyecto junto en boton para ver los generos.
+- La pagina principal muestra el titulo del proyecto junto a un boton para ver los generos.
 
 ![image](https://github.com/user-attachments/assets/eaa6d938-268c-47c0-bfc3-830ca2e02c44)
 
