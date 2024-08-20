@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 
-const App = () => {
+const Page = () => {
   const [animes, setAnime] = useState([]);
   const [genres, setGenre] = useState({});
   const [selectedGenre, setSelectedGenre] = useState(null);
@@ -43,8 +43,7 @@ const App = () => {
 
 
     <div>
-
-      <div className="flex ml-4 ">
+      <div className="flex ml-5 my-10 ">
         {Object.keys(genres).map(genre => (
           <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-bg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800" key={genre} onClick={() => handleGenreClick(genre)}>
             <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -95,4 +94,4 @@ const App = () => {
 }
 
 
-export default App;
+export default Page;
