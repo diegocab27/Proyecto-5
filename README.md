@@ -11,6 +11,23 @@ El objetivo principal de este proyecto es construir una aplicacion Web con React
 
 Construir una aplicación Web con React y utilizando el framwork de vite que consume datos de una API publica de Anime los cuales se administran para mostrarse por genero en una lista y al seleccionar un Anime este mostrara la imagen y una descripcion de este.
 
+
+## Despliegue
+
+La aplicacion se desplego en https://render.com y se puede revisar a travez del siguiente enlace
+
+- https://proyecto-5-9f91.onrender.com
+
+
+## Puntos a destacar
+
+- Uso de `Vite`
+- Uso de `TailwindCSS` como principal framework CSS
+- Uso de `React Router`
+- Uso de `ErrorBoundary`
+- Uso de `useEffect`
+
+
 ## Instalacion 
 
 Para instalar y ejecutar el proyecto en desarrollo realizamos los siguientes comandos
@@ -19,14 +36,6 @@ Para instalar y ejecutar el proyecto en desarrollo realizamos los siguientes com
   npm install 
   npm run dev
 ```
-
-
-## Despliegue
-
-La aplicacion se desplego en https://render.com y se puede revisar a travez del siguiente enlace
-
-- https://proyecto-5-9f91.onrender.com
-
 
 
 ## Uso del proyecto
@@ -44,6 +53,7 @@ La aplicacion se desplego en https://render.com y se puede revisar a travez del 
 - En el listado se puede seleccionar alguno para ver su imagen y descripcion.
 
 ![image](https://github.com/user-attachments/assets/832c6945-66a5-4b95-a2f2-9d1a6c834376)
+
 
 
 ### App
@@ -69,6 +79,31 @@ export const App = () => {
 
 export default App
 
+
+```
+
+### Main
+
+```
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import ErrorBoundary from './components/ErrorBoundary.jsx'
+// import Header from './components/Header.jsx'
+import App from './App.jsx'
+import './index.css'
+
+
+import { BrowserRouter } from 'react-router-dom'
+
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  </BrowserRouter>
+)
 
 ```
 
